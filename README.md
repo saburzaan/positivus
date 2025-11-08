@@ -1,3 +1,3 @@
 # Pozitivus
 
-Адаптивный лендинг, созданный с использованием HTML и SCSS по методологии БЭМ.
+Responsive landing page built with HTML and SCSS using the BEM methodology.
