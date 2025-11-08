@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "watch": "sass --watch src/scss:dist/css",
-    "build": "sass src/scss:dist/css --no-source-map && copyfiles -u 1 src/index.html src/assets/**/* dist/"
+    "build": "sass src/scss:dist/css --no-source-map && cp src/index.html dist/ && mkdir -p dist/assets && cp -r src/assets/* dist/assets/"
   },
   "repository": {
     "type": "git",
