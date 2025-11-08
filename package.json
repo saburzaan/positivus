@@ -21,8 +21,6 @@
   },
   "homepage": "https://github.com/saburzaan/positivus#readme",
   "devDependencies": {
-    "copyfiles": "^2.4.1",
-    "rimraf": "^6.1.0",
     "sass": "^1.93.3"
   }
 }
